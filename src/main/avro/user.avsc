@@ -1,0 +1,10 @@
+{
+	"namespace": "com.avro.entity",
+	"type": "record",
+	"name": "User",
+	"fields": [
+		{"name": "id",  "type": ["int", "null"]},
+		{"name": "fName", "type": "string"},
+                {"name": "lName", "type": "string"}
+	 ]
+}
